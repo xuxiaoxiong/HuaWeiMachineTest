@@ -11,10 +11,12 @@ public class GetInputCharCount {
         char search_char ;
         int count = 0;
         Scanner scanner = new Scanner(System.in);
+        // 注意这里需要全部转换成小写
         input_str = scanner.nextLine().toLowerCase();
         search_str = scanner.next().toLowerCase();
         search_char = search_str.charAt(0);
         for (int i = 0; i < input_str.length(); i++) {
+            // 怎么判断char相等
             if(input_str.charAt(i) == search_char){
                 count++;
             }
