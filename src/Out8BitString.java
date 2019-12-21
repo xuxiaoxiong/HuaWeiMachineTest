@@ -13,7 +13,6 @@ public class Out8BitString {
             String str2 = scanner.nextLine();
             split(str);
             split(str2);
-
     }
 
     public static void split(String str) {
